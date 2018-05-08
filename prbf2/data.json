@@ -1,0 +1,20 @@
+[
+	{
+		"key": "prbf2_realityconfig_admin_default",
+		"file": "realityconfig_admin.py",
+		"description": "Default Config File for realityconfig_admin.py",
+		"location": "mods/pr/python/game/realityconfig_admin.py"
+	},
+	{
+		"key": "prbf2_serversettings_default",
+		"file": "serversettings.con",
+		"description": "Default Config File for serversettings.con",
+		"location": "mods/pr/settings/serversettings.con"
+	},
+	{
+		"key": "prbf2_maplist_default",
+		"file": "maplist.con",
+		"description": "Default Config File for maplist.con",
+		"location": "mods/pr/settings/maplist.con"
+	}
+]
