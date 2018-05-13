@@ -1,7 +1,7 @@
 sv.serverName "Project Reality Server"
 sv.password ""
 sv.internet 0
-sv.serverIP "212.227.53.118"
+sv.serverIP ""
 sv.serverPort 16567
 sv.welcomeMessage "Welcome to a Project Reality server!"
 sv.punkBuster 0
