@@ -199,6 +199,7 @@ rem |---------------------------------------------------------------------------
 mapList.append albasrah_2 gpm_skirmish 16
 mapList.append asad_khal gpm_skirmish 16
 mapList.append asad_khal gpm_skirmish 32
+mapList.append asad_khal gpm_skirmish 64
 mapList.append assault_on_grozny gpm_skirmish 16
 mapList.append assault_on_grozny gpm_skirmish 32
 mapList.append assault_on_mestia gpm_skirmish 16
@@ -228,13 +229,13 @@ mapList.append iron_ridge gpm_skirmish 32
 mapList.append iron_thunder gpm_skirmish 64
 mapList.append jabal gpm_skirmish 16
 mapList.append jabal gpm_skirmish 32
+mapList.append jabal gpm_skirmish 64
 mapList.append karbala gpm_skirmish 16
 mapList.append kashan_desert gpm_skirmish 16
 mapList.append kashan_desert gpm_skirmish 32
 mapList.append kashan_desert gpm_skirmish 64
 mapList.append khamisiyah gpm_skirmish 16
 mapList.append kokan gpm_skirmish 16
-mapList.append kokan gpm_skirmish 32
 mapList.append kokan gpm_skirmish 64
 mapList.append korengal gpm_skirmish 16
 mapList.append kozelsk gpm_skirmish 16
@@ -260,7 +261,6 @@ mapList.append sbeneh_outskirts gpm_skirmish 16
 mapList.append sbeneh_outskirts gpm_skirmish 32
 mapList.append shahadah gpm_skirmish 16
 mapList.append shijiavalley gpm_skirmish 16
-mapList.append shijiavalley gpm_skirmish 32
 mapList.append shijiavalley gpm_skirmish 64
 mapList.append silent_eagle gpm_skirmish 16
 mapList.append tad_sae gpm_skirmish 16
@@ -269,6 +269,7 @@ mapList.append the_falklands gpm_skirmish 16
 mapList.append the_falklands gpm_skirmish 32
 mapList.append ulyanovsk gpm_skirmish 16
 mapList.append vadso_city gpm_skirmish 16
+mapList.append vadso_city gpm_skirmish 64
 mapList.append wanda_shan gpm_skirmish 16
 mapList.append wanda_shan gpm_skirmish 32
 mapList.append xiangshan gpm_skirmish 16
@@ -346,6 +347,10 @@ mapList.append wanda_shan gpm_vehicles 64
 mapList.append xiangshan gpm_vehicles 64
 mapList.append yamalia gpm_vehicles 32
 mapList.append yamalia gpm_vehicles 64
+
+rem |-------------------------------------------------------------------------------|
+rem |           Objective Gamemode - Destroy or defend certain objectives           |
+rem |-------------------------------------------------------------------------------|
 
 rem |-------------------------------------------------------------------------------|
 rem |  Co-Operative - Play with Bots !!!Cannot be run with any other game mode!!!   |
