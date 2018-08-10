@@ -318,6 +318,7 @@ adm_commandAliases = {
     "mvote":    "mapvote",
     "lastmap":  "history",
     "lastmaps": "history",
+    "ug":       "ungrief",
 }
 #
 # Rights management.
@@ -487,6 +488,10 @@ adm_adminPowerLevels = {
     # or in the range [0,m] if m is a supplied positive integer
     # Default is 777
     "flip":       777,
+    # Ungrief (TODO)
+    #
+    #
+    "ungrief":    1,
 }
 #
 # This text will be sent to the player issueing !website.

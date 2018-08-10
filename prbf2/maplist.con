@@ -26,6 +26,7 @@ mapList.append assault_on_mestia gpm_cq 16
 mapList.append assault_on_mestia gpm_cq 64
 mapList.append bamyan gpm_cq 32
 mapList.append bamyan gpm_cq 64
+mapList.append bamyan gpm_cq 128
 mapList.append battle_of_ia_drang gpm_cq 16
 mapList.append battle_of_ia_drang gpm_cq 32
 mapList.append battle_of_ia_drang gpm_cq 64
@@ -66,7 +67,6 @@ mapList.append hill_488 gpm_cq 64
 mapList.append iron_ridge gpm_cq 16
 mapList.append iron_ridge gpm_cq 32
 mapList.append iron_ridge gpm_cq 64
-mapList.append iron_thunder gpm_cq 16
 mapList.append iron_thunder gpm_cq 32
 mapList.append iron_thunder gpm_cq 64
 mapList.append jabal gpm_cq 16
@@ -93,6 +93,9 @@ mapList.append nuijamaa gpm_cq 64
 mapList.append op_barracuda gpm_cq 16
 mapList.append op_barracuda gpm_cq 32
 mapList.append op_barracuda gpm_cq 64
+mapList.append operation_falcon gpm_cq 16
+mapList.append operation_falcon gpm_cq 32
+mapList.append operation_falcon gpm_cq 64
 mapList.append operation_ghost_train gpm_cq 16
 mapList.append operation_ghost_train gpm_cq 64
 mapList.append operation_marlin gpm_cq 16
@@ -109,8 +112,6 @@ mapList.append qwai1 gpm_cq 16
 mapList.append qwai1 gpm_cq 32
 mapList.append qwai1 gpm_cq 64
 mapList.append ramiel gpm_cq 64
-mapList.append route gpm_cq 16
-mapList.append route gpm_cq 32
 mapList.append route gpm_cq 64
 mapList.append saaremaa gpm_cq 16
 mapList.append saaremaa gpm_cq 32
@@ -170,7 +171,9 @@ mapList.append gaza_2 gpm_insurgency 32
 mapList.append gaza_2 gpm_insurgency 64
 mapList.append iron_ridge gpm_insurgency 64
 mapList.append karbala gpm_insurgency 16
+mapList.append karbala gpm_insurgency 32
 mapList.append karbala gpm_insurgency 64
+mapList.append karbala gpm_insurgency 128
 mapList.append khamisiyah gpm_insurgency 64
 mapList.append kokan gpm_insurgency 16
 mapList.append kokan gpm_insurgency 32
@@ -212,9 +215,7 @@ mapList.append black_gold gpm_skirmish 16
 mapList.append burning_sands gpm_skirmish 16
 mapList.append charlies_point gpm_skirmish 16
 mapList.append dovre gpm_skirmish 16
-mapList.append dovre gpm_skirmish 32
 mapList.append dovre_winter gpm_skirmish 16
-mapList.append dovre_winter gpm_skirmish 32
 mapList.append dragon_fly gpm_skirmish 16
 mapList.append fallujah_west gpm_skirmish 16
 mapList.append fools_road gpm_skirmish 16
@@ -246,6 +247,7 @@ mapList.append nuijamaa gpm_skirmish 16
 mapList.append op_barracuda gpm_skirmish 16
 mapList.append op_barracuda gpm_skirmish 32
 mapList.append operation_archer gpm_skirmish 16
+mapList.append operation_falcon gpm_skirmish 16
 mapList.append operation_ghost_train gpm_skirmish 16
 mapList.append operation_marlin gpm_skirmish 16
 mapList.append operation_soul_rebel gpm_skirmish 16
@@ -254,6 +256,7 @@ mapList.append pavlovsk_bay gpm_skirmish 16
 mapList.append qwai1 gpm_skirmish 16
 mapList.append qwai1 gpm_skirmish 32
 mapList.append ramiel gpm_skirmish 16
+mapList.append route gpm_skirmish 16
 mapList.append saaremaa gpm_skirmish 16
 mapList.append sahel gpm_skirmish 32
 mapList.append sahel gpm_skirmish 64
@@ -275,6 +278,7 @@ mapList.append wanda_shan gpm_skirmish 32
 mapList.append xiangshan gpm_skirmish 16
 mapList.append xiangshan gpm_skirmish 32
 mapList.append yamalia gpm_skirmish 16
+mapList.append yamalia gpm_skirmish 32
 
 rem |-------------------------------------------------------------------------------|
 rem |    Command and Control - Objective based. Build and defend Forward Outposts   |
@@ -304,6 +308,7 @@ mapList.append kashan_desert gpm_cnc 64
 mapList.append khamisiyah gpm_cnc 16
 mapList.append khamisiyah gpm_cnc 32
 mapList.append khamisiyah gpm_cnc 64
+mapList.append route gpm_cnc 64
 mapList.append saaremaa gpm_cnc 16
 mapList.append saaremaa gpm_cnc 32
 mapList.append saaremaa gpm_cnc 64
@@ -345,12 +350,7 @@ mapList.append the_falklands gpm_vehicles 32
 mapList.append the_falklands gpm_vehicles 64
 mapList.append wanda_shan gpm_vehicles 64
 mapList.append xiangshan gpm_vehicles 64
-mapList.append yamalia gpm_vehicles 32
 mapList.append yamalia gpm_vehicles 64
-
-rem |-------------------------------------------------------------------------------|
-rem |           Objective Gamemode - Destroy or defend certain objectives           |
-rem |-------------------------------------------------------------------------------|
 
 rem |-------------------------------------------------------------------------------|
 rem |  Co-Operative - Play with Bots !!!Cannot be run with any other game mode!!!   |
@@ -372,7 +372,6 @@ mapList.append battle_of_ia_drang gpm_coop 32
 mapList.append battle_of_ia_drang gpm_coop 64
 mapList.append beirut gpm_coop 32
 mapList.append beirut gpm_coop 64
-mapList.append beirut gpm_coop 128
 mapList.append bijar_canyons gpm_coop 32
 mapList.append bijar_canyons gpm_coop 64
 mapList.append black_gold gpm_coop 16
@@ -399,9 +398,6 @@ mapList.append iron_ridge gpm_coop 64
 mapList.append jabal gpm_coop 16
 mapList.append jabal gpm_coop 32
 mapList.append jabal gpm_coop 64
-mapList.append karbala gpm_coop 16
-mapList.append karbala gpm_coop 32
-mapList.append karbala gpm_coop 64
 mapList.append kashan_desert gpm_coop 16
 mapList.append kashan_desert gpm_coop 32
 mapList.append kashan_desert gpm_coop 64
@@ -435,6 +431,7 @@ mapList.append operation_marlin gpm_coop 16
 mapList.append operation_marlin gpm_coop 32
 mapList.append operation_marlin gpm_coop 64
 mapList.append operation_soul_rebel gpm_coop 64
+mapList.append outpost gpm_coop 64
 mapList.append pavlovsk_bay gpm_coop 16
 mapList.append pavlovsk_bay gpm_coop 32
 mapList.append pavlovsk_bay gpm_coop 64
@@ -453,6 +450,8 @@ mapList.append sahel gpm_coop 64
 mapList.append sbeneh_outskirts gpm_coop 16
 mapList.append sbeneh_outskirts gpm_coop 32
 mapList.append sbeneh_outskirts gpm_coop 64
+mapList.append shahadah gpm_coop 16
+mapList.append shahadah gpm_coop 64
 mapList.append shijiavalley gpm_coop 16
 mapList.append shijiavalley gpm_coop 32
 mapList.append shijiavalley gpm_coop 64
@@ -468,8 +467,4 @@ mapList.append vadso_city gpm_coop 64
 mapList.append vadso_city gpm_coop 128
 mapList.append wanda_shan gpm_coop 64
 mapList.append xiangshan gpm_coop 64
-mapList.append yamalia gpm_coop 16
-mapList.append yamalia gpm_coop 32
-mapList.append yamalia gpm_coop 64
-mapList.append yamalia gpm_coop 128
 endrem
