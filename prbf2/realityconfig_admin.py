@@ -559,3 +559,12 @@ rcon_commandPowerLevels = {
     'serverdetails':   777,
     'gameplaydetails': 777,
 }
+
+
+#### Name verification
+namever_enable = True
+
+# Options for:
+# Socket.bind( (namever_localIP, namever_port) )
+namever_port = 0 # Local UDP port to listen to replies from masterserver. 0 means OS selects a random port.
+namever_localIP = '' # Local IP to bind the socket to. Leave this blank if you're not sure.
