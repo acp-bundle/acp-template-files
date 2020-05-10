@@ -17,12 +17,15 @@ rem mapList.append <mapname> <gamemode> <layer>
 rem |-------------------------------------------------------------------------------|
 rem |   Advance and Secure. Capture and defend control points (Default GameMode)    |
 rem |-------------------------------------------------------------------------------|
+mapList.append merville gpm_cq 64
+mapList.append kashan_desert gpm_cq 32
+mapList.append omaha_beach gpm_cq 64
+mapList.append sbeneh_outskirts gpm_cq 64
 mapList.append asad_khal gpm_cq 32
 mapList.append asad_khal gpm_cq 64
 mapList.append assault_on_grozny gpm_cq 16
 mapList.append assault_on_grozny gpm_cq 32
 mapList.append assault_on_grozny gpm_cq 64
-mapList.append assault_on_mestia gpm_cq 16
 mapList.append assault_on_mestia gpm_cq 64
 mapList.append bamyan gpm_cq 32
 mapList.append bamyan gpm_cq 64
@@ -38,9 +41,15 @@ mapList.append bijar_canyons gpm_cq 64
 mapList.append black_gold gpm_cq 16
 mapList.append black_gold gpm_cq 32
 mapList.append black_gold gpm_cq 64
+mapList.append black_gold gpm_cq 128
+mapList.append brecourt_assault gpm_cq 32
+mapList.append brecourt_assault gpm_cq 64
 mapList.append burning_sands gpm_cq 16
 mapList.append burning_sands gpm_cq 32
 mapList.append burning_sands gpm_cq 64
+mapList.append carentan gpm_cq 32
+mapList.append carentan gpm_cq 64
+mapList.append carentan gpm_cq 128
 mapList.append charlies_point gpm_cq 64
 mapList.append dovre gpm_cq 16
 mapList.append dovre gpm_cq 32
@@ -51,6 +60,7 @@ mapList.append dovre_winter gpm_cq 64
 mapList.append dragon_fly gpm_cq 16
 mapList.append dragon_fly gpm_cq 32
 mapList.append dragon_fly gpm_cq 64
+mapList.append fallujah_west gpm_cq 64
 mapList.append fools_road gpm_cq 16
 mapList.append fools_road gpm_cq 32
 mapList.append fools_road gpm_cq 64
@@ -72,6 +82,9 @@ mapList.append iron_thunder gpm_cq 64
 mapList.append jabal gpm_cq 16
 mapList.append jabal gpm_cq 32
 mapList.append jabal gpm_cq 64
+mapList.append kafar_halab gpm_cq 16
+mapList.append kafar_halab gpm_cq 32
+mapList.append kafar_halab gpm_cq 64
 mapList.append kashan_desert gpm_cq 16
 mapList.append kashan_desert gpm_cq 32
 mapList.append kashan_desert gpm_cq 64
@@ -84,18 +97,26 @@ mapList.append korengal gpm_cq 64
 mapList.append kozelsk gpm_cq 16
 mapList.append kozelsk gpm_cq 32
 mapList.append kozelsk gpm_cq 64
+mapList.append merville gpm_cq 16
+mapList.append merville gpm_cq 32
+mapList.append merville gpm_cq 64
 mapList.append muttrah_city_2 gpm_cq 16
 mapList.append muttrah_city_2 gpm_cq 32
 mapList.append muttrah_city_2 gpm_cq 64
 mapList.append nuijamaa gpm_cq 16
 mapList.append nuijamaa gpm_cq 32
 mapList.append nuijamaa gpm_cq 64
+mapList.append omaha_beach gpm_cq 16
+mapList.append omaha_beach gpm_cq 32
+mapList.append omaha_beach gpm_cq 64
+mapList.append omaha_beach gpm_cq 128
 mapList.append op_barracuda gpm_cq 16
 mapList.append op_barracuda gpm_cq 32
 mapList.append op_barracuda gpm_cq 64
 mapList.append operation_falcon gpm_cq 16
 mapList.append operation_falcon gpm_cq 32
 mapList.append operation_falcon gpm_cq 64
+mapList.append operation_falcon gpm_cq 128
 mapList.append operation_ghost_train gpm_cq 16
 mapList.append operation_ghost_train gpm_cq 64
 mapList.append operation_marlin gpm_cq 16
@@ -112,6 +133,9 @@ mapList.append qwai1 gpm_cq 16
 mapList.append qwai1 gpm_cq 32
 mapList.append qwai1 gpm_cq 64
 mapList.append ramiel gpm_cq 64
+mapList.append reichswald gpm_cq 16
+mapList.append reichswald gpm_cq 32
+mapList.append reichswald gpm_cq 64
 mapList.append route gpm_cq 64
 mapList.append saaremaa gpm_cq 16
 mapList.append saaremaa gpm_cq 32
@@ -121,6 +145,7 @@ mapList.append sahel gpm_cq 16
 mapList.append sahel gpm_cq 32
 mapList.append sahel gpm_cq 64
 mapList.append sbeneh_outskirts gpm_cq 16
+mapList.append sbeneh_outskirts gpm_cq 32
 mapList.append sbeneh_outskirts gpm_cq 64
 mapList.append shahadah gpm_cq 64
 mapList.append shijiavalley gpm_cq 16
@@ -167,9 +192,9 @@ mapList.append fallujah_west gpm_insurgency 16
 mapList.append fallujah_west gpm_insurgency 32
 mapList.append fallujah_west gpm_insurgency 64
 mapList.append gaza_2 gpm_insurgency 16
-mapList.append gaza_2 gpm_insurgency 32
 mapList.append gaza_2 gpm_insurgency 64
 mapList.append iron_ridge gpm_insurgency 64
+mapList.append kafar_halab gpm_insurgency 64
 mapList.append karbala gpm_insurgency 16
 mapList.append karbala gpm_insurgency 32
 mapList.append karbala gpm_insurgency 64
@@ -212,7 +237,11 @@ mapList.append beirut gpm_skirmish 16
 mapList.append beirut gpm_skirmish 32
 mapList.append bijar_canyons gpm_skirmish 16
 mapList.append black_gold gpm_skirmish 16
+mapList.append brecourt_assault gpm_skirmish 64
 mapList.append burning_sands gpm_skirmish 16
+mapList.append carentan gpm_skirmish 16
+mapList.append carentan gpm_skirmish 32
+mapList.append carentan gpm_skirmish 64
 mapList.append charlies_point gpm_skirmish 16
 mapList.append dovre gpm_skirmish 16
 mapList.append dovre_winter gpm_skirmish 16
@@ -227,10 +256,11 @@ mapList.append hades_peak gpm_skirmish 16
 mapList.append hill_488 gpm_skirmish 16
 mapList.append iron_ridge gpm_skirmish 16
 mapList.append iron_ridge gpm_skirmish 32
-mapList.append iron_thunder gpm_skirmish 64
+mapList.append iron_thunder gpm_skirmish 16
 mapList.append jabal gpm_skirmish 16
 mapList.append jabal gpm_skirmish 32
 mapList.append jabal gpm_skirmish 64
+mapList.append kafar_halab gpm_skirmish 64
 mapList.append karbala gpm_skirmish 16
 mapList.append kashan_desert gpm_skirmish 16
 mapList.append kashan_desert gpm_skirmish 32
@@ -240,10 +270,11 @@ mapList.append kokan gpm_skirmish 16
 mapList.append kokan gpm_skirmish 64
 mapList.append korengal gpm_skirmish 16
 mapList.append kozelsk gpm_skirmish 16
-mapList.append kozelsk gpm_skirmish 32
 mapList.append lashkar_valley gpm_skirmish 16
+mapList.append merville gpm_skirmish 16
 mapList.append muttrah_city_2 gpm_skirmish 16
 mapList.append nuijamaa gpm_skirmish 16
+mapList.append omaha_beach gpm_skirmish 16
 mapList.append op_barracuda gpm_skirmish 16
 mapList.append op_barracuda gpm_skirmish 32
 mapList.append operation_archer gpm_skirmish 16
@@ -256,6 +287,8 @@ mapList.append pavlovsk_bay gpm_skirmish 16
 mapList.append qwai1 gpm_skirmish 16
 mapList.append qwai1 gpm_skirmish 32
 mapList.append ramiel gpm_skirmish 16
+mapList.append reichswald gpm_skirmish 16
+mapList.append reichswald gpm_skirmish 32
 mapList.append route gpm_skirmish 16
 mapList.append saaremaa gpm_skirmish 16
 mapList.append sahel gpm_skirmish 32
@@ -274,7 +307,6 @@ mapList.append ulyanovsk gpm_skirmish 16
 mapList.append vadso_city gpm_skirmish 16
 mapList.append vadso_city gpm_skirmish 64
 mapList.append wanda_shan gpm_skirmish 16
-mapList.append wanda_shan gpm_skirmish 32
 mapList.append xiangshan gpm_skirmish 16
 mapList.append xiangshan gpm_skirmish 32
 mapList.append yamalia gpm_skirmish 16
@@ -291,7 +323,9 @@ mapList.append bijar_canyons gpm_cnc 64
 mapList.append black_gold gpm_cnc 16
 mapList.append black_gold gpm_cnc 32
 mapList.append black_gold gpm_cnc 64
+mapList.append black_gold gpm_cnc 128
 mapList.append dragon_fly gpm_cnc 16
+mapList.append dragon_fly gpm_cnc 32
 mapList.append dragon_fly gpm_cnc 64
 mapList.append fools_road gpm_cnc 16
 mapList.append fools_road gpm_cnc 32
@@ -321,8 +355,9 @@ mapList.append silent_eagle gpm_cnc 16
 mapList.append silent_eagle gpm_cnc 32
 mapList.append silent_eagle gpm_cnc 64
 mapList.append vadso_city gpm_cnc 16
-mapList.append vadso_city gpm_cnc 32
 mapList.append vadso_city gpm_cnc 64
+mapList.append wanda_shan gpm_cnc 16
+mapList.append wanda_shan gpm_cnc 32
 mapList.append wanda_shan gpm_cnc 64
 mapList.append xiangshan gpm_cnc 16
 mapList.append xiangshan gpm_cnc 32
@@ -337,11 +372,13 @@ rem |---------------------------------------------------------------------------
 mapList.append bijar_canyons gpm_vehicles 64
 mapList.append black_gold gpm_vehicles 16
 mapList.append black_gold gpm_vehicles 64
+mapList.append dragon_fly gpm_vehicles 64
 mapList.append kashan_desert gpm_vehicles 32
 mapList.append kashan_desert gpm_vehicles 64
 mapList.append khamisiyah gpm_vehicles 16
 mapList.append khamisiyah gpm_vehicles 64
 mapList.append operation_soul_rebel gpm_vehicles 64
+mapList.append sbeneh_outskirts gpm_vehicles 16
 mapList.append sbeneh_outskirts gpm_vehicles 64
 mapList.append shijiavalley gpm_vehicles 64
 mapList.append silent_eagle gpm_vehicles 16
@@ -398,6 +435,8 @@ mapList.append iron_ridge gpm_coop 64
 mapList.append jabal gpm_coop 16
 mapList.append jabal gpm_coop 32
 mapList.append jabal gpm_coop 64
+mapList.append jabal gpm_coop 128
+mapList.append karbala gpm_coop 64
 mapList.append kashan_desert gpm_coop 16
 mapList.append kashan_desert gpm_coop 32
 mapList.append kashan_desert gpm_coop 64
@@ -416,6 +455,7 @@ mapList.append kozelsk gpm_coop 64
 mapList.append lashkar_valley gpm_coop 16
 mapList.append lashkar_valley gpm_coop 32
 mapList.append lashkar_valley gpm_coop 64
+mapList.append merville gpm_coop 64
 mapList.append muttrah_city_2 gpm_coop 16
 mapList.append muttrah_city_2 gpm_coop 32
 mapList.append muttrah_city_2 gpm_coop 64
@@ -446,6 +486,7 @@ mapList.append route gpm_coop 16
 mapList.append route gpm_coop 64
 mapList.append saaremaa gpm_coop 32
 mapList.append saaremaa gpm_coop 64
+mapList.append sahel gpm_coop 16
 mapList.append sahel gpm_coop 64
 mapList.append sbeneh_outskirts gpm_coop 16
 mapList.append sbeneh_outskirts gpm_coop 32
