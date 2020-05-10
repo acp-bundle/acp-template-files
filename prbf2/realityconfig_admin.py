@@ -32,8 +32,10 @@ gameNotificationsEnabled = True
 # ==============================================================================
 # Squads SETTINGS
 #
-# Seconds after round start until allowed to create squads
+# Seconds after round start until allowed to create squads. 
+# sqd_noSquadsBefore is subtracted from the number of seconds set in 'PRROUNDSTARTDELAY' var via realityconfig_common.py in order to get the SquadCreationTime.
 # Default is 90
+
 sqd_noSquadsBefore = 90
 #
 # Resign early
@@ -290,6 +292,10 @@ adm_mvoteRecurrence = 10
 # Default is 10
 adm_maxRopes = 10
 #
+# If !givelead should work in coop
+# Default is true
+adm_coopGiveLead = True
+#
 # Array in which the names of the administrators will be saved.
 # Make sure there are NO duplicates!
 adm_adminHashes = {
@@ -332,7 +338,6 @@ adm_adminPowerLevels = {
     #
     # Reload the current map.
     # Default is 1
-    #"squadbug": 1,
     "reload":     1,
     #
     # Run the next map.
@@ -492,6 +497,18 @@ adm_adminPowerLevels = {
     #
     #
     "ungrief":    1,
+    #
+    #
+    # Reset squads - may fix squad bug
+    "resetsquads": 1,
+    #
+    # Server Entrance control
+    # handle whitelist and join permissions to the server
+    "ec": 1,
+    #
+    # Player info
+    # Print IP, Account ID ("hash"), level, and whitelist status of a player
+    "info": 2,
 }
 #
 # This text will be sent to the player issueing !website.
@@ -537,6 +554,13 @@ adm_mapListCustom = [
     # "mapname|gamemode|layer",
 ]
 
+# Give reserved slots for the following groups
+# available groups: ["CON", "DEV", "RETIRED", "TESTER"]
+adm_devReservedSlots = ["CON", "DEV", "RETIRED", "TESTER"]
+
+# PRISM: See realitymod.com/prism for help.
+rcon_enabled = False
+
 # Rcon welcome message
 rcon_welcome = 'Welcome to PRISM!'
 
@@ -561,10 +585,21 @@ rcon_commandPowerLevels = {
 }
 
 
-#### Name verification
-namever_enable = True
+# Prism TCP port to listen on
+rcon_port = 4712
 
-# Options for:
-# Socket.bind( (namever_localIP, namever_port) )
-namever_port = 0 # Local UDP port to listen to replies from masterserver. 0 means OS selects a random port.
-namever_localIP = '' # Local IP to bind the socket to. Leave this blank if you're not sure.
+
+# Entrance control
+# Possible values are 0, 1, 2
+# 0 Means everyone
+# 1 Means some trust
+# 2 Means high trust
+ec_minimumTrust = 0
+
+# Allow VAC banned users to join the server if they're not on whitelist
+ec_allowVacBanned = True
+
+
+# Report this as your external IP to the master server.
+# Do not touch unless you have multiple interfaces
+sv_externalIP = ""
